@@ -9,7 +9,7 @@
 
 银行卡：（卡号，银行名称）并截取到银行卡图像
 
-![WYIDCardOCR-拍照正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/拍照正面.png?raw=true)
+![WYIDCardOCR-拍照正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/拍照正面?raw=true)
 ![WYIDCardOCR-拍照反面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/拍照反面.png?raw=true)
 ![WYIDCardOCR-读取正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/读取正面.png?raw=true)
 ![WYIDCardOCR-读取反面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/读取反面.png?raw=true)
@@ -28,7 +28,7 @@ Privacy - Photo Library Usage Description       是否允许访问相册
 
 2、运行程序，可能会报 ENABLE_BITCODE 错误：
 
-![ENABLE_BITCODE Error](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/错误.png?raw=true)
+![WYIDCardOCR-ERROR](https://github.com/unseim/WYIDCardOCR/tree/master/Image/错误.png?raw=true)
 
 解决方法：
 
