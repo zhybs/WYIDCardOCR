@@ -39,6 +39,7 @@ Privacy - Photo Library Usage Description       是否允许访问相册
 `在使用该功能的地方：`
 
 `WYIDScanViewController *VC = [[WYIDScanViewController alloc] initWithCarInfo: 扫描的类型  ];`
+
 `[self.navigationController VC animated:YES];`
 
 
