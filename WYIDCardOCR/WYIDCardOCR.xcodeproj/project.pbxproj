@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D34CECE1F0FCEB90025E6E0 /* libbankcard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D34CEAB1F0FCEB90025E6E0 /* libbankcard.a */; };
+		9D34CECF1F0FCEB90025E6E0 /* zocr0.lib in Resources */ = {isa = PBXBuildFile; fileRef = 9D34CEAF1F0FCEB90025E6E0 /* zocr0.lib */; };
+		9D34CED01F0FCEB90025E6E0 /* libexidcardios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D34CEB11F0FCEB90025E6E0 /* libexidcardios.a */; };
+		9D34CED11F0FCEB90025E6E0 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEB41F0FCEB90025E6E0 /* UIImage+Extend.m */; };
+		9D34CED21F0FCEB90025E6E0 /* WYAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEB61F0FCEB90025E6E0 /* WYAuthorization.m */; };
+		9D34CED31F0FCEB90025E6E0 /* WYBankCardSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEB81F0FCEB90025E6E0 /* WYBankCardSearch.m */; };
+		9D34CED41F0FCEB90025E6E0 /* WYRectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEBA1F0FCEB90025E6E0 /* WYRectManager.m */; };
+		9D34CED51F0FCEB90025E6E0 /* WYScanBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEBC1F0FCEB90025E6E0 /* WYScanBaseManager.m */; };
+		9D34CED61F0FCEB90025E6E0 /* WYScanManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEBE1F0FCEB90025E6E0 /* WYScanManager.m */; };
+		9D34CED71F0FCEB90025E6E0 /* WYScanManagerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEC01F0FCEB90025E6E0 /* WYScanManagerControl.m */; };
+		9D34CED81F0FCEB90025E6E0 /* WYScanManagerInitialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEC21F0FCEB90025E6E0 /* WYScanManagerInitialize.m */; };
+		9D34CED91F0FCEB90025E6E0 /* WYScanResultModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEC51F0FCEB90025E6E0 /* WYScanResultModel.m */; };
+		9D34CEDA1F0FCEB90025E6E0 /* WYIDCardScaningView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEC81F0FCEB90025E6E0 /* WYIDCardScaningView.m */; };
+		9D34CEDB1F0FCEB90025E6E0 /* WYIDScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CECB1F0FCEB90025E6E0 /* WYIDScanViewController.m */; };
+		9D34CEDC1F0FCEB90025E6E0 /* WYScanBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CECD1F0FCEB90025E6E0 /* WYScanBaseViewController.m */; };
+		9D34CEDF1F0FD4C00025E6E0 /* BasicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D34CEDE1F0FD4C00025E6E0 /* BasicNavigationController.m */; };
+		9D68CB721F0F1CCC00DAA177 /* WYBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D68CB701F0F1CCC00DAA177 /* WYBankViewController.m */; };
+		9D68CB731F0F1CCC00DAA177 /* WYBankViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D68CB711F0F1CCC00DAA177 /* WYBankViewController.xib */; };
+		9D68CB781F0F235200DAA177 /* WYIDFrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D68CB761F0F235200DAA177 /* WYIDFrontViewController.m */; };
+		9D68CB791F0F235200DAA177 /* WYIDFrontViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D68CB771F0F235200DAA177 /* WYIDFrontViewController.xib */; };
+		9D68CB801F0F238300DAA177 /* WYIDDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D68CB7E1F0F238300DAA177 /* WYIDDownViewController.m */; };
+		9D68CB811F0F238300DAA177 /* WYIDDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D68CB7F1F0F238300DAA177 /* WYIDDownViewController.xib */; };
+		9DA1A4781F0E2971000AC801 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1A4771F0E2971000AC801 /* main.m */; };
+		9DA1A47B1F0E2971000AC801 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1A47A1F0E2971000AC801 /* AppDelegate.m */; };
+		9DA1A47E1F0E2971000AC801 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1A47D1F0E2971000AC801 /* ViewController.m */; };
+		9DA1A4811F0E2971000AC801 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1A47F1F0E2971000AC801 /* Main.storyboard */; };
+		9DA1A4831F0E2971000AC801 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1A4821F0E2971000AC801 /* Assets.xcassets */; };
+		9DA1A4861F0E2971000AC801 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1A4841F0E2971000AC801 /* LaunchScreen.storyboard */; };
+		9DA1A4901F0E2A65000AC801 /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1A48F1F0E2A65000AC801 /* PodFile */; };
+		F505E037BA172C29A8EB3B4B /* libPods-WYIDCardOCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D5D8B9501D2DAB4FA92EF0 /* libPods-WYIDCardOCR.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016D0F51C7B2F81D0EBF224B /* Pods-WYIDCardOCR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYIDCardOCR.release.xcconfig"; path = "Pods/Target Support Files/Pods-WYIDCardOCR/Pods-WYIDCardOCR.release.xcconfig"; sourceTree = "<group>"; };
+		6ED5A7865038A87CA0519034 /* Pods-WYIDCardOCR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYIDCardOCR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WYIDCardOCR/Pods-WYIDCardOCR.debug.xcconfig"; sourceTree = "<group>"; };
+		9D34CEA71F0FCEB90025E6E0 /* BankCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankCard.h; sourceTree = "<group>"; };
+		9D34CEA81F0FCEB90025E6E0 /* exbankcard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcard.h; sourceTree = "<group>"; };
+		9D34CEAA1F0FCEB90025E6E0 /* exbankcardcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exbankcardcore.h; sourceTree = "<group>"; };
+		9D34CEAB1F0FCEB90025E6E0 /* libbankcard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libbankcard.a; sourceTree = "<group>"; };
+		9D34CEAD1F0FCEB90025E6E0 /* commondef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = commondef.h; sourceTree = "<group>"; };
+		9D34CEAF1F0FCEB90025E6E0 /* zocr0.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = zocr0.lib; sourceTree = "<group>"; };
+		9D34CEB01F0FCEB90025E6E0 /* excards.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = excards.h; sourceTree = "<group>"; };
+		9D34CEB11F0FCEB90025E6E0 /* libexidcardios.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libexidcardios.a; sourceTree = "<group>"; };
+		9D34CEB31F0FCEB90025E6E0 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		9D34CEB41F0FCEB90025E6E0 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		9D34CEB51F0FCEB90025E6E0 /* WYAuthorization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYAuthorization.h; sourceTree = "<group>"; };
+		9D34CEB61F0FCEB90025E6E0 /* WYAuthorization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYAuthorization.m; sourceTree = "<group>"; };
+		9D34CEB71F0FCEB90025E6E0 /* WYBankCardSearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBankCardSearch.h; sourceTree = "<group>"; };
+		9D34CEB81F0FCEB90025E6E0 /* WYBankCardSearch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBankCardSearch.m; sourceTree = "<group>"; };
+		9D34CEB91F0FCEB90025E6E0 /* WYRectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYRectManager.h; sourceTree = "<group>"; };
+		9D34CEBA1F0FCEB90025E6E0 /* WYRectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYRectManager.m; sourceTree = "<group>"; };
+		9D34CEBB1F0FCEB90025E6E0 /* WYScanBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScanBaseManager.h; sourceTree = "<group>"; };
+		9D34CEBC1F0FCEB90025E6E0 /* WYScanBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScanBaseManager.m; sourceTree = "<group>"; };
+		9D34CEBD1F0FCEB90025E6E0 /* WYScanManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScanManager.h; sourceTree = "<group>"; };
+		9D34CEBE1F0FCEB90025E6E0 /* WYScanManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScanManager.m; sourceTree = "<group>"; };
+		9D34CEBF1F0FCEB90025E6E0 /* WYScanManagerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScanManagerControl.h; sourceTree = "<group>"; };
+		9D34CEC01F0FCEB90025E6E0 /* WYScanManagerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScanManagerControl.m; sourceTree = "<group>"; };
+		9D34CEC11F0FCEB90025E6E0 /* WYScanManagerInitialize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScanManagerInitialize.h; sourceTree = "<group>"; };
+		9D34CEC21F0FCEB90025E6E0 /* WYScanManagerInitialize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScanManagerInitialize.m; sourceTree = "<group>"; };
+		9D34CEC41F0FCEB90025E6E0 /* WYScanResultModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScanResultModel.h; sourceTree = "<group>"; };
+		9D34CEC51F0FCEB90025E6E0 /* WYScanResultModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScanResultModel.m; sourceTree = "<group>"; };
+		9D34CEC71F0FCEB90025E6E0 /* WYIDCardScaningView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYIDCardScaningView.h; sourceTree = "<group>"; };
+		9D34CEC81F0FCEB90025E6E0 /* WYIDCardScaningView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYIDCardScaningView.m; sourceTree = "<group>"; };
+		9D34CECA1F0FCEB90025E6E0 /* WYIDScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYIDScanViewController.h; sourceTree = "<group>"; };
+		9D34CECB1F0FCEB90025E6E0 /* WYIDScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYIDScanViewController.m; sourceTree = "<group>"; };
+		9D34CECC1F0FCEB90025E6E0 /* WYScanBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYScanBaseViewController.h; sourceTree = "<group>"; };
+		9D34CECD1F0FCEB90025E6E0 /* WYScanBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYScanBaseViewController.m; sourceTree = "<group>"; };
+		9D34CEDD1F0FD4C00025E6E0 /* BasicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicNavigationController.h; sourceTree = "<group>"; };
+		9D34CEDE1F0FD4C00025E6E0 /* BasicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicNavigationController.m; sourceTree = "<group>"; };
+		9D68CB6F1F0F1CCB00DAA177 /* WYBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBankViewController.h; sourceTree = "<group>"; };
+		9D68CB701F0F1CCC00DAA177 /* WYBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBankViewController.m; sourceTree = "<group>"; };
+		9D68CB711F0F1CCC00DAA177 /* WYBankViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYBankViewController.xib; sourceTree = "<group>"; };
+		9D68CB751F0F235200DAA177 /* WYIDFrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYIDFrontViewController.h; sourceTree = "<group>"; };
+		9D68CB761F0F235200DAA177 /* WYIDFrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYIDFrontViewController.m; sourceTree = "<group>"; };
+		9D68CB771F0F235200DAA177 /* WYIDFrontViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYIDFrontViewController.xib; sourceTree = "<group>"; };
+		9D68CB7D1F0F238300DAA177 /* WYIDDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYIDDownViewController.h; sourceTree = "<group>"; };
+		9D68CB7E1F0F238300DAA177 /* WYIDDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYIDDownViewController.m; sourceTree = "<group>"; };
+		9D68CB7F1F0F238300DAA177 /* WYIDDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WYIDDownViewController.xib; sourceTree = "<group>"; };
+		9DA1A4731F0E2971000AC801 /* WYIDCardOCR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYIDCardOCR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DA1A4771F0E2971000AC801 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DA1A4791F0E2971000AC801 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DA1A47A1F0E2971000AC801 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DA1A47C1F0E2971000AC801 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DA1A47D1F0E2971000AC801 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DA1A4801F0E2971000AC801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DA1A4821F0E2971000AC801 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DA1A4851F0E2971000AC801 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DA1A4871F0E2971000AC801 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA1A48F1F0E2A65000AC801 /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
+		C1D5D8B9501D2DAB4FA92EF0 /* libPods-WYIDCardOCR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WYIDCardOCR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DA1A4701F0E2971000AC801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F505E037BA172C29A8EB3B4B /* libPods-WYIDCardOCR.a in Frameworks */,
+				9D34CECE1F0FCEB90025E6E0 /* libbankcard.a in Frameworks */,
+				9D34CED01F0FCEB90025E6E0 /* libexidcardios.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6074ACCB7EC97737EB82BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1D5D8B9501D2DAB4FA92EF0 /* libPods-WYIDCardOCR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		825C49EE7FF137D81F5FFF63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6ED5A7865038A87CA0519034 /* Pods-WYIDCardOCR.debug.xcconfig */,
+				016D0F51C7B2F81D0EBF224B /* Pods-WYIDCardOCR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D34CEA51F0FCEB90025E6E0 /* WYIDCardOCR */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEA61F0FCEB90025E6E0 /* bank_io */,
+				9D34CEAC1F0FCEB90025E6E0 /* libexidcard */,
+				9D34CEB21F0FCEB90025E6E0 /* Manager */,
+				9D34CEC31F0FCEB90025E6E0 /* Model */,
+				9D34CEC61F0FCEB90025E6E0 /* View */,
+				9D34CEC91F0FCEB90025E6E0 /* ViewController */,
+			);
+			path = WYIDCardOCR;
+			sourceTree = "<group>";
+		};
+		9D34CEA61F0FCEB90025E6E0 /* bank_io */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEA71F0FCEB90025E6E0 /* BankCard.h */,
+				9D34CEA81F0FCEB90025E6E0 /* exbankcard.h */,
+				9D34CEA91F0FCEB90025E6E0 /* exbankcardcore */,
+			);
+			path = bank_io;
+			sourceTree = "<group>";
+		};
+		9D34CEA91F0FCEB90025E6E0 /* exbankcardcore */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEAA1F0FCEB90025E6E0 /* exbankcardcore.h */,
+				9D34CEAB1F0FCEB90025E6E0 /* libbankcard.a */,
+			);
+			path = exbankcardcore;
+			sourceTree = "<group>";
+		};
+		9D34CEAC1F0FCEB90025E6E0 /* libexidcard */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEAD1F0FCEB90025E6E0 /* commondef.h */,
+				9D34CEAE1F0FCEB90025E6E0 /* dicts */,
+				9D34CEB01F0FCEB90025E6E0 /* excards.h */,
+				9D34CEB11F0FCEB90025E6E0 /* libexidcardios.a */,
+			);
+			path = libexidcard;
+			sourceTree = "<group>";
+		};
+		9D34CEAE1F0FCEB90025E6E0 /* dicts */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEAF1F0FCEB90025E6E0 /* zocr0.lib */,
+			);
+			path = dicts;
+			sourceTree = "<group>";
+		};
+		9D34CEB21F0FCEB90025E6E0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEB31F0FCEB90025E6E0 /* UIImage+Extend.h */,
+				9D34CEB41F0FCEB90025E6E0 /* UIImage+Extend.m */,
+				9D34CEB51F0FCEB90025E6E0 /* WYAuthorization.h */,
+				9D34CEB61F0FCEB90025E6E0 /* WYAuthorization.m */,
+				9D34CEB71F0FCEB90025E6E0 /* WYBankCardSearch.h */,
+				9D34CEB81F0FCEB90025E6E0 /* WYBankCardSearch.m */,
+				9D34CEB91F0FCEB90025E6E0 /* WYRectManager.h */,
+				9D34CEBA1F0FCEB90025E6E0 /* WYRectManager.m */,
+				9D34CEBB1F0FCEB90025E6E0 /* WYScanBaseManager.h */,
+				9D34CEBC1F0FCEB90025E6E0 /* WYScanBaseManager.m */,
+				9D34CEBD1F0FCEB90025E6E0 /* WYScanManager.h */,
+				9D34CEBE1F0FCEB90025E6E0 /* WYScanManager.m */,
+				9D34CEBF1F0FCEB90025E6E0 /* WYScanManagerControl.h */,
+				9D34CEC01F0FCEB90025E6E0 /* WYScanManagerControl.m */,
+				9D34CEC11F0FCEB90025E6E0 /* WYScanManagerInitialize.h */,
+				9D34CEC21F0FCEB90025E6E0 /* WYScanManagerInitialize.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		9D34CEC31F0FCEB90025E6E0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEC41F0FCEB90025E6E0 /* WYScanResultModel.h */,
+				9D34CEC51F0FCEB90025E6E0 /* WYScanResultModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9D34CEC61F0FCEB90025E6E0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEC71F0FCEB90025E6E0 /* WYIDCardScaningView.h */,
+				9D34CEC81F0FCEB90025E6E0 /* WYIDCardScaningView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9D34CEC91F0FCEB90025E6E0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CECA1F0FCEB90025E6E0 /* WYIDScanViewController.h */,
+				9D34CECB1F0FCEB90025E6E0 /* WYIDScanViewController.m */,
+				9D34CECC1F0FCEB90025E6E0 /* WYScanBaseViewController.h */,
+				9D34CECD1F0FCEB90025E6E0 /* WYScanBaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9D68CB741F0F233300DAA177 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1A47C1F0E2971000AC801 /* ViewController.h */,
+				9DA1A47D1F0E2971000AC801 /* ViewController.m */,
+				9D68CB6F1F0F1CCB00DAA177 /* WYBankViewController.h */,
+				9D68CB701F0F1CCC00DAA177 /* WYBankViewController.m */,
+				9D68CB711F0F1CCC00DAA177 /* WYBankViewController.xib */,
+				9D68CB751F0F235200DAA177 /* WYIDFrontViewController.h */,
+				9D68CB761F0F235200DAA177 /* WYIDFrontViewController.m */,
+				9D68CB771F0F235200DAA177 /* WYIDFrontViewController.xib */,
+				9D68CB7D1F0F238300DAA177 /* WYIDDownViewController.h */,
+				9D68CB7E1F0F238300DAA177 /* WYIDDownViewController.m */,
+				9D68CB7F1F0F238300DAA177 /* WYIDDownViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9DA1A46A1F0E2971000AC801 = {
+			isa = PBXGroup;
+			children = (
+				9DA1A4751F0E2971000AC801 /* WYIDCardOCR */,
+				9DA1A4741F0E2971000AC801 /* Products */,
+				825C49EE7FF137D81F5FFF63 /* Pods */,
+				0E6074ACCB7EC97737EB82BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DA1A4741F0E2971000AC801 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1A4731F0E2971000AC801 /* WYIDCardOCR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DA1A4751F0E2971000AC801 /* WYIDCardOCR */ = {
+			isa = PBXGroup;
+			children = (
+				9D34CEA51F0FCEB90025E6E0 /* WYIDCardOCR */,
+				9DA1A4791F0E2971000AC801 /* AppDelegate.h */,
+				9DA1A47A1F0E2971000AC801 /* AppDelegate.m */,
+				9D34CEDD1F0FD4C00025E6E0 /* BasicNavigationController.h */,
+				9D34CEDE1F0FD4C00025E6E0 /* BasicNavigationController.m */,
+				9D68CB741F0F233300DAA177 /* Controller */,
+				9DA1A4761F0E2971000AC801 /* Supporting Files */,
+			);
+			path = WYIDCardOCR;
+			sourceTree = "<group>";
+		};
+		9DA1A4761F0E2971000AC801 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DA1A48F1F0E2A65000AC801 /* PodFile */,
+				9DA1A4821F0E2971000AC801 /* Assets.xcassets */,
+				9DA1A47F1F0E2971000AC801 /* Main.storyboard */,
+				9DA1A4841F0E2971000AC801 /* LaunchScreen.storyboard */,
+				9DA1A4871F0E2971000AC801 /* Info.plist */,
+				9DA1A4771F0E2971000AC801 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DA1A4721F0E2971000AC801 /* WYIDCardOCR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DA1A48A1F0E2971000AC801 /* Build configuration list for PBXNativeTarget "WYIDCardOCR" */;
+			buildPhases = (
+				AD76C2A1A3427BA383A89AB1 /* [CP] Check Pods Manifest.lock */,
+				9DA1A46F1F0E2971000AC801 /* Sources */,
+				9DA1A4701F0E2971000AC801 /* Frameworks */,
+				9DA1A4711F0E2971000AC801 /* Resources */,
+				94B87BFA9782DD877C231BA9 /* [CP] Embed Pods Frameworks */,
+				27530D4A7E99D741B79487F9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYIDCardOCR;
+			productName = WYIDCardOCR;
+			productReference = 9DA1A4731F0E2971000AC801 /* WYIDCardOCR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DA1A46B1F0E2971000AC801 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WY;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "之静之初";
+				TargetAttributes = {
+					9DA1A4721F0E2971000AC801 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 9DA1A46E1F0E2971000AC801 /* Build configuration list for PBXProject "WYIDCardOCR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DA1A46A1F0E2971000AC801;
+			productRefGroup = 9DA1A4741F0E2971000AC801 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DA1A4721F0E2971000AC801 /* WYIDCardOCR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DA1A4711F0E2971000AC801 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D68CB811F0F238300DAA177 /* WYIDDownViewController.xib in Resources */,
+				9D68CB791F0F235200DAA177 /* WYIDFrontViewController.xib in Resources */,
+				9DA1A4861F0E2971000AC801 /* LaunchScreen.storyboard in Resources */,
+				9DA1A4831F0E2971000AC801 /* Assets.xcassets in Resources */,
+				9D34CECF1F0FCEB90025E6E0 /* zocr0.lib in Resources */,
+				9DA1A4901F0E2A65000AC801 /* PodFile in Resources */,
+				9DA1A4811F0E2971000AC801 /* Main.storyboard in Resources */,
+				9D68CB731F0F1CCC00DAA177 /* WYBankViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27530D4A7E99D741B79487F9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYIDCardOCR/Pods-WYIDCardOCR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94B87BFA9782DD877C231BA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WYIDCardOCR/Pods-WYIDCardOCR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD76C2A1A3427BA383A89AB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DA1A46F1F0E2971000AC801 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D68CB781F0F235200DAA177 /* WYIDFrontViewController.m in Sources */,
+				9D34CED51F0FCEB90025E6E0 /* WYScanBaseManager.m in Sources */,
+				9D34CED61F0FCEB90025E6E0 /* WYScanManager.m in Sources */,
+				9D34CED91F0FCEB90025E6E0 /* WYScanResultModel.m in Sources */,
+				9D34CED71F0FCEB90025E6E0 /* WYScanManagerControl.m in Sources */,
+				9D34CEDA1F0FCEB90025E6E0 /* WYIDCardScaningView.m in Sources */,
+				9D34CEDC1F0FCEB90025E6E0 /* WYScanBaseViewController.m in Sources */,
+				9D34CEDF1F0FD4C00025E6E0 /* BasicNavigationController.m in Sources */,
+				9DA1A47E1F0E2971000AC801 /* ViewController.m in Sources */,
+				9D34CED11F0FCEB90025E6E0 /* UIImage+Extend.m in Sources */,
+				9D34CED31F0FCEB90025E6E0 /* WYBankCardSearch.m in Sources */,
+				9DA1A47B1F0E2971000AC801 /* AppDelegate.m in Sources */,
+				9DA1A4781F0E2971000AC801 /* main.m in Sources */,
+				9D34CED21F0FCEB90025E6E0 /* WYAuthorization.m in Sources */,
+				9D34CED41F0FCEB90025E6E0 /* WYRectManager.m in Sources */,
+				9D68CB721F0F1CCC00DAA177 /* WYBankViewController.m in Sources */,
+				9D34CED81F0FCEB90025E6E0 /* WYScanManagerInitialize.m in Sources */,
+				9D68CB801F0F238300DAA177 /* WYIDDownViewController.m in Sources */,
+				9D34CEDB1F0FCEB90025E6E0 /* WYIDScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DA1A47F1F0E2971000AC801 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA1A4801F0E2971000AC801 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DA1A4841F0E2971000AC801 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DA1A4851F0E2971000AC801 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DA1A4881F0E2971000AC801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DA1A4891F0E2971000AC801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DA1A48B1F0E2971000AC801 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ED5A7865038A87CA0519034 /* Pods-WYIDCardOCR.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = WYIDCardOCR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WYIDCardOCR/WYIDCardOCR/libexidcard",
+					"$(PROJECT_DIR)/WYIDCardOCR/WYIDCardOCR/bank_io/exbankcardcore",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IDCardOCR.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DA1A48C1F0E2971000AC801 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 016D0F51C7B2F81D0EBF224B /* Pods-WYIDCardOCR.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				ENABLE_TESTABILITY = NO;
+				INFOPLIST_FILE = WYIDCardOCR/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WYIDCardOCR/WYIDCardOCR/libexidcard",
+					"$(PROJECT_DIR)/WYIDCardOCR/WYIDCardOCR/bank_io/exbankcardcore",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.IDCardOCR.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DA1A46E1F0E2971000AC801 /* Build configuration list for PBXProject "WYIDCardOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA1A4881F0E2971000AC801 /* Debug */,
+				9DA1A4891F0E2971000AC801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DA1A48A1F0E2971000AC801 /* Build configuration list for PBXNativeTarget "WYIDCardOCR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DA1A48B1F0E2971000AC801 /* Debug */,
+				9DA1A48C1F0E2971000AC801 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DA1A46B1F0E2971000AC801 /* Project object */;
+}
