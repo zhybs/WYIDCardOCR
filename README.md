@@ -9,13 +9,13 @@
 
 银行卡：（卡号，银行名称）并截取到银行卡图像
 
-![拍照正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/Image/拍照正面.png?raw=true)
-![WYIDCardOCR-拍照反面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/拍照反面.png?raw=true)
-![WYIDCardOCR-读取正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/读取正面.png?raw=true)
-![WYIDCardOCR-读取反面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/读取反面.png?raw=true)
-![WYIDCardOCR-卡凹槽正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/卡凹槽正面.png?raw=true)
-![WYIDCardOCR-卡平滑正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/卡平滑正面.png?raw=true)
-![WYIDCardOCR-卡读取](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/卡读取.png?raw=true)
+![WYIDCardOCR-拍照正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/拍照正面.png?raw=true)
+![WYIDCardOCR-拍照反面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/拍照反面.png?raw=true)
+![WYIDCardOCR-读取正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/读取正面.png?raw=true)
+![WYIDCardOCR-读取反面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/读取反面.png?raw=true)
+![WYIDCardOCR-卡凹槽正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/卡凹槽正面.png?raw=true)
+![WYIDCardOCR-卡平滑正面](https://github.com/unseim/WYIDCardOCR/tree/master/Image/卡平滑正面.png?raw=true)
+![WYIDCardOCR-卡读取](https://github.com/unseim/WYIDCardOCR/tree/master/Image/卡读取.png?raw=true)
 
 
 ## 使用
