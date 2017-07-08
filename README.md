@@ -7,7 +7,7 @@
 身份证：（姓名、性别、民族、住址、身份证号码）并截取到身份证正反面图像
 银行卡：（卡号，银行名称）并截取到银行卡图像
 
-![WYIDCardOCR-拍照正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/Image/拍照正面.png?raw=true)
+![拍照正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/Image/拍照正面.png?raw=true)
 ![WYIDCardOCR-拍照反面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/拍照反面.png?raw=true)
 ![WYIDCardOCR-读取正面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/读取正面.png?raw=true)
 ![WYIDCardOCR-读取反面](https://github.com/unseim/WYIDCardOCR/WYIDCardOCR/master/Image/读取反面.png?raw=true)
